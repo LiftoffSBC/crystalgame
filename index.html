@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crystal Game</title>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+    <h1 id="title">Crystals Collector!</h1>
+
+    <div id="rules">
+        <h4>You will be shown a random number at the start of the game.</h4>
+        <h4>Click a crystal to add a specific amount of points to your total score.</h4>
+        <h4>Win by matching your total score to random number. Lose the game if your total score goes above
+            the random number.</h4>
+        <h4>You can't see the value of each crystal until you click on it.</h4>
+        <h4>The values of each crystal change each time when the game starts.</h4>
+    </div>
+
+    <div id="screen">
+        <!--Show Number-->
+        <div id="number-display"></div>
+        <!--Show Wins/Losses-->
+        <div id="win-lose"></div>
+    </div>
+
+    <div>
+        <!--Show Crystals-->
+        <div id="crystal"></div>
+        <div id="scorebanner">Your total score is:</div>
+        <!--Show Score-->
+        <div id="score"></div>
+    </div>
+
+
+</body>
+
+</html>
