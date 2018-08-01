@@ -11,37 +11,50 @@
         crossorigin="anonymous"></script>
     <script type="text/javascript" src="assets/javascript/game.js"></script>
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+
 
 </head>
 
 <body>
-    <h1 id="title">Crystals Collector!</h1>
-
-    <div id="rules">
-        <h4>You will be shown a random number at the start of the game.</h4>
-        <h4>Click a crystal to add a specific amount of points to your total score.</h4>
-        <h4>Win by matching your total score to random number. Lose the game if your total score goes above the random number.</h4>
-        <h4>You can't see the value of each crystal until you click on it.</h4>
-        <h4>The values of each crystal change each time when the game starts.</h4>
-    </div>
-
-    <div id="align" class="container">
-        <div id="screen" class="left element">
-            <!--Show Number-->
-            <div id="number-display"></div>
+    <div class="Container">
+        <div class="row">
+            <h1 class="col" id="title">Crystals Collector!</h1>
         </div>
-        <!--Show Wins/Losses-->
-        <div id="win-lose" class="right element"></div>
-    </div>
-    <div class="clear"></div>
-    <div>
-        <!--Show Crystals-->
-        <div id="crystal"></div>
-        <div id="scorebanner">Your total score is:</div>
-        <!--Show Score-->
-        <div id="score"></div>
-    </div>
+        <div class="row">
+            <div class="col" id="rules">
+                <h4>You will be shown a random number at the start of the game.</h4>
+                <h4>Click a crystal to add a specific amount of points to your total score.</h4>
+                <h4>Win by matching your total score to random number. Lose the game if your total score goes above the random
+                    number.
+                </h4>
+                <h4>You can't see the value of each crystal until you click on it.</h4>
+                <h4>The values of each crystal change each time when the game starts.</h4>
+            </div>
+        </div>
 
+        <div id="align" class="row">
+            <div id="screen" class="col">
+                <!--Show Number-->
+                <div id="number-display"></div>
+            </div>
+            <!--Show Wins/Losses-->
+            <div id="win-lose" class="col"></div>
+        </div>
+
+        <div class="row">
+            <!--Show Crystals-->
+            <div id="crystal" class="col"></div>
+        </div>
+            <!--Show Score-->
+        <div class="row">
+            <div id="scorebanner" class="col-4">Your total score is:</div>
+        </div>
+        <div class="row">
+            <div id="score" class="col-4"></div>
+        </div>
+    </div>
 </body>
 
 </html>

@@ -6,8 +6,7 @@ body {
 #title {
    width: 250px;
    font-weight: bolder;
-   padding: 4px;
-   margin-bottom: 10px;
+   padding: 20px;
    background-color: rgba(62, 189, 248, 0.575)
 }
 
@@ -23,26 +22,25 @@ body {
     border: solid;
     border-color: rgba(173, 216, 230, 0.562);
   }
-  
+
   #rules {
     width: 400px;
-    height: 400px;
-    padding: 4px;
-    margin-bottom: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
     color: green;
     background-color: rgba(255, 228, 196, 0.37);
   }
 
   #screen {
     overflow: auto;
-    float:left
   }
 
   #screen {
     width: 200px;
-    height: 100px;
+    height: 150px;
     padding: 4px;
-    font-size: 3vw;
+    margin-left: 20px;
+    font-size: 4vw;
     color: purple;
     background-color: mediumseagreen;
   }
@@ -51,37 +49,40 @@ body {
     width: 210px;
     height: 100px;
     padding: 4px;
+    margin-left: 20px;
     color: ghostwhite;
     background-color: darkcyan;
+    margin-bottom: 20px;
   }
   
   #scorebanner {
     width: 210px;
     padding: 4px;
-    margin-bottom: 10px;
+    margin-bottom: 4px;
     color: white;
     background-color: darkcyan;
+    margin-left: 20px;
   }
   
   #score-number {
-    font-size: 3vw;
+    font-size: 4vw;
+    margin-left: 20px;
   }
   
-  /* #number-display {
-    float: left;
-  } */
-
   #win-lose {
-    height: 100px;
-    padding: 4px;
-    margin-bottom: 10px;
-    margin-left: 10px;
+    height: 150px;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
     background-color: aqua;
-    float: left;
-    overflow: auto;
   }
 
   #align {
     width: 650px;
+  }
+
+  #crystal {
+    margin-left: 4px;
+    margin-bottom: 20px;
   }
   

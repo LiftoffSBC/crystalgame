@@ -86,7 +86,7 @@ $(document).ready(function () {
         $("#score").html();
         $("#score").html(scoreNumDiv);
     }
-    
+
     setGame();
     updateDom();
     renderCrystals();
