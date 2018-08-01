@@ -20,19 +20,20 @@
     <div id="rules">
         <h4>You will be shown a random number at the start of the game.</h4>
         <h4>Click a crystal to add a specific amount of points to your total score.</h4>
-        <h4>Win by matching your total score to random number. Lose the game if your total score goes above
-            the random number.</h4>
+        <h4>Win by matching your total score to random number. Lose the game if your total score goes above the random number.</h4>
         <h4>You can't see the value of each crystal until you click on it.</h4>
         <h4>The values of each crystal change each time when the game starts.</h4>
     </div>
 
-    <div id="screen">
-        <!--Show Number-->
-        <div id="number-display"></div>
+    <div id="align" class="container">
+        <div id="screen" class="left element">
+            <!--Show Number-->
+            <div id="number-display"></div>
+        </div>
         <!--Show Wins/Losses-->
-        <div id="win-lose"></div>
+        <div id="win-lose" class="right element"></div>
     </div>
-
+    <div class="clear"></div>
     <div>
         <!--Show Crystals-->
         <div id="crystal"></div>
@@ -40,7 +41,6 @@
         <!--Show Score-->
         <div id="score"></div>
     </div>
-
 
 </body>
 

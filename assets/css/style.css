@@ -4,10 +4,11 @@ body {
 }
 
 #title {
+   width: 250px;
    font-weight: bolder;
    padding: 4px;
    margin-bottom: 10px;
-
+   background-color: rgba(62, 189, 248, 0.575)
 }
 
 .crystals-button {
@@ -31,7 +32,12 @@ body {
     color: green;
     background-color: rgba(255, 228, 196, 0.37);
   }
-  
+
+  #screen {
+    overflow: auto;
+    float:left
+  }
+
   #screen {
     width: 200px;
     height: 100px;
@@ -61,10 +67,21 @@ body {
     font-size: 3vw;
   }
   
+  /* #number-display {
+    float: left;
+  } */
+
   #win-lose {
     height: 100px;
     padding: 4px;
     margin-bottom: 10px;
     margin-left: 10px;
+    background-color: aqua;
+    float: left;
+    overflow: auto;
+  }
+
+  #align {
+    width: 650px;
   }
   
